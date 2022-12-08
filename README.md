@@ -4,7 +4,7 @@
 ###### 🇫🇮 Finnish language only release
 
 Työkalu, jonka tein tänä syksynä omaan käyttöön nopeuttamaan työskentelyäni opinnäytetyöni parissa, sillä, lähteitä oli paljon opinnäytetyössäni. Työkalu automaattisesti muotoilee lähteen oikeaan muotoon, kunhan siihen syöttää tarvittavat tiedon, valmiin lähteen saa kopioitua ja suoraan liitettyä opinnäytetyöhön. Sovelluksen tein Unity-pelimoottorissa & C# kielellä.
-Ladattavissa: 
+Ladattavissa: https://github.com/ramitammela/SourceTool/releases/tag/Build
 
 
 ###### Kuva käyttöliittymästä
