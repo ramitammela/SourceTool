@@ -1,0 +1,455 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1670516992042092, "dur":1374, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670516992043474, "dur":62, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1670516992043554, "dur":23, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1670516992043579, "dur":218, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1670516992043822, "dur":654, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670516992044476, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670516992131495, "dur":89, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670516992131584, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670516992131597, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670516992131601, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670516992131608, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670516992131611, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670516992131618, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670516992131621, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670516992131629, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670516992131640, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670516992131643, "dur":1638, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1670516992045023, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670516992045023, "dur":7817, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670516992052857, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1670516992052858, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670516992052959, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1670516992052964, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670516992053775, "dur":2305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1670516992056082, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1670516992056187, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670516992056193, "dur":1046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1670516992057295, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1670516992057403, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670516992057518, "dur":762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1670516992058341, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1670516992058442, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670516992058825, "dur":646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1670516992059518, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1670516992059606, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670516992059651, "dur":841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1670516992060554, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1670516992060643, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670516992060648, "dur":1090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1670516992061788, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670516992061897, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670516992061901, "dur":45448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670516992107412, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670516992107518, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670516992107522, "dur":1717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670516992109287, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670516992109337, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670516992109342, "dur":1122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670516992110510, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670516992110728, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670516992110732, "dur":939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670516992111717, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670516992111876, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670516992111881, "dur":1002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670516992112938, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670516992113096, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670516992113116, "dur":1071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670516992114233, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670516992114439, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670516992114444, "dur":787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670516992115275, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670516992115416, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670516992115437, "dur":831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670516992116313, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670516992116358, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670516992116362, "dur":1373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670516992117791, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670516992117846, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670516992117852, "dur":2318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670516992120219, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670516992120268, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670516992120272, "dur":1477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670516992121793, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670516992121834, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670516992121839, "dur":1692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670516992123585, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670516992123631, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670516992123637, "dur":7714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670516992131394, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1670516992131395, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670516992045098, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670516992045098, "dur":7753, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670516992052857, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1670516992052999, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670516992055492, "dur":688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1670516992056226, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1670516992056326, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670516992056628, "dur":755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1670516992057916, "dur":533, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1670516992058451, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670516992058457, "dur":1162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1670516992059670, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1670516992059756, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670516992059761, "dur":841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1670516992060655, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992060742, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670516992060951, "dur":1323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992062321, "dur":301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1670516992062625, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670516992062630, "dur":5325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1670516992068016, "dur":493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1670516992068515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670516992069336, "dur":10912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1670516992080304, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992080358, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670516992080363, "dur":1353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992081762, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992081835, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670516992081857, "dur":903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992082803, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992082847, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670516992082851, "dur":5855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992088754, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992088895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670516992088900, "dur":1211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992090159, "dur":325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992090486, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670516992090491, "dur":1361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992091897, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992091945, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670516992091949, "dur":919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992092912, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992092957, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670516992092961, "dur":901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992093913, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992093967, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670516992093973, "dur":915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992094935, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992094986, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670516992094992, "dur":886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992095924, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992095976, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670516992095982, "dur":1046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992097078, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992097143, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670516992097150, "dur":1132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992098332, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992098380, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670516992098388, "dur":804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992099241, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992099287, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670516992099292, "dur":771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992100108, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992100164, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670516992100178, "dur":1452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992101681, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992101728, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670516992101734, "dur":1224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992103006, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992103060, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670516992103083, "dur":932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992104067, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992104114, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670516992104120, "dur":956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992105130, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992105188, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670516992105194, "dur":1103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992106346, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992106424, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670516992106430, "dur":1199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992107675, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992107721, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670516992107744, "dur":1889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992109679, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992109725, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670516992109730, "dur":965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992110745, "dur":384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992111131, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670516992111136, "dur":1019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992112298, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992112448, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670516992112453, "dur":763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992113260, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992113451, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670516992113456, "dur":1045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992114547, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992114695, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670516992114699, "dur":840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992115584, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992115718, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670516992115723, "dur":824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992116598, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992116648, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670516992116652, "dur":1192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992117893, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992117949, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670516992117954, "dur":924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992118922, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992118967, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670516992118972, "dur":1057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992120074, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992120118, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670516992120124, "dur":817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992120985, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992121030, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670516992121035, "dur":1655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992122737, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992122783, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670516992122789, "dur":1054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992123886, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992123929, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670516992123933, "dur":911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992124885, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992124928, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670516992124935, "dur":970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670516992125946, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1670516992126087, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670516992126403, "dur":762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1670516992127228, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1670516992127275, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670516992127280, "dur":1883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1670516992129221, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1670516992129269, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670516992129277, "dur":1038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1670516992130365, "dur":1135, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670516992045109, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670516992045110, "dur":7979, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670516992053090, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1670516992053211, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670516992055284, "dur":817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1670516992056150, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1670516992056233, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670516992056238, "dur":1084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1670516992057371, "dur":2814, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1670516992060187, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670516992060193, "dur":2560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1670516992062800, "dur":13373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu.exe" }}
+,{ "pid":12345, "tid":3, "ts":1670516992076175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670516992076181, "dur":1413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu.exe" }}
+,{ "pid":12345, "tid":3, "ts":1670516992077638, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670516992077693, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670516992077698, "dur":827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670516992078568, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670516992078617, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670516992078622, "dur":788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670516992079452, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670516992079503, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670516992079508, "dur":800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670516992080353, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670516992080396, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670516992080401, "dur":1140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670516992081589, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670516992081639, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670516992081644, "dur":951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670516992082643, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670516992082693, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670516992082698, "dur":6072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670516992088832, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670516992088892, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670516992088899, "dur":1231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670516992090177, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670516992090227, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670516992090233, "dur":1426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670516992091704, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670516992091750, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670516992091755, "dur":1006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670516992092808, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670516992092859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670516992092864, "dur":1047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670516992093964, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670516992094014, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670516992094019, "dur":909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670516992094978, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670516992095024, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670516992095028, "dur":4332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670516992099409, "dur":442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670516992099854, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670516992099859, "dur":3172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670516992103077, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670516992103180, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670516992103188, "dur":887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670516992104122, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670516992104171, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670516992104175, "dur":909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670516992105137, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670516992105211, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670516992105216, "dur":1776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670516992107241, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670516992107308, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670516992107313, "dur":8889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670516992116250, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670516992116298, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670516992116302, "dur":4417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670516992120762, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670516992120815, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670516992120819, "dur":2983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670516992123846, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670516992123893, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670516992123898, "dur":1646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670516992125592, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670516992125744, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670516992125750, "dur":793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670516992126585, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1670516992126633, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670516992126692, "dur":1014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1670516992127751, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1670516992127795, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670516992127800, "dur":726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1670516992128570, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1670516992128703, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670516992128706, "dur":751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1670516992129510, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1670516992129555, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670516992129558, "dur":813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1670516992130413, "dur":1111, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670516992045045, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670516992045045, "dur":7964, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670516992053009, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1670516992053098, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670516992055143, "dur":895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1670516992056089, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1670516992056191, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670516992056211, "dur":1086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1670516992057347, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1670516992057555, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670516992057560, "dur":728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1670516992058345, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1670516992058446, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670516992058656, "dur":782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1670516992059489, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1670516992059575, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670516992059629, "dur":803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1670516992060482, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1670516992060592, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670516992060597, "dur":1123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1670516992061771, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992061897, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670516992061962, "dur":11681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992073695, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992073753, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670516992073940, "dur":964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992074964, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992075011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670516992075084, "dur":985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992076115, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992076183, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670516992076188, "dur":974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992077211, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992077262, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670516992077268, "dur":990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992078302, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992078352, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670516992078358, "dur":791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992079192, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992079238, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670516992079243, "dur":1009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992080303, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992080356, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670516992080362, "dur":990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992081404, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992081542, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670516992081548, "dur":1081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992082679, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992082743, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670516992082747, "dur":6149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992088944, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992088996, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670516992089019, "dur":1871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992090940, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992090996, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670516992091002, "dur":1182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992092229, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992092318, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670516992092343, "dur":824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992093213, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992093263, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670516992093267, "dur":849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992094161, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992094205, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670516992094231, "dur":861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992095137, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992095183, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670516992095187, "dur":864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992096101, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992096150, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670516992096155, "dur":1106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992097313, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992097383, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670516992097388, "dur":1131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992098563, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992098610, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670516992098614, "dur":943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992099602, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992099646, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670516992099668, "dur":816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992100529, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992100655, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670516992100660, "dur":1691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992102396, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992102440, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670516992102445, "dur":807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992103297, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992103343, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670516992103348, "dur":973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992104369, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992104419, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670516992104423, "dur":828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992105296, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992105343, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670516992105347, "dur":1651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992107151, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992107203, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670516992107209, "dur":988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992108242, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992108288, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670516992108293, "dur":983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992109324, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992109373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670516992109378, "dur":992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992110416, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992110465, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670516992110471, "dur":993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992111510, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992111651, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670516992111655, "dur":1106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992112806, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992112949, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670516992112955, "dur":932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992113932, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992114077, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670516992114082, "dur":854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992114978, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992115111, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670516992115116, "dur":810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992115968, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992116013, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670516992116017, "dur":931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992116994, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992117042, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670516992117064, "dur":1278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992118401, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992118461, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670516992118466, "dur":867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992119392, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992119452, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670516992119458, "dur":882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992120382, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992120426, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670516992120430, "dur":3625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992124096, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992124139, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670516992124143, "dur":4204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670516992128395, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1670516992128555, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670516992128559, "dur":751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1670516992129358, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1670516992129404, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670516992129408, "dur":796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1670516992130247, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1670516992130380, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670516992130385, "dur":661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RT/Downloads/ewrwer/Rami Tammela - Lhdetykalu_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1670516992131088, "dur":351, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670516992134945, "dur":1660, "ph":"X", "name": "ProfilerWriteOutput" }
+,
