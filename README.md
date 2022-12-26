@@ -1,7 +1,9 @@
 #  Lähdetyökalu   (english: SourceTool)
 
-**Year: 2022  
-Made with: Unity & C# language**
+**Year:** 2022  
+**Made with:** Unity & C# language  
+✔️ Complete Project
+
 ###### 🇫🇮 Finnish language only release, made for my own personal use.
 
 Työkalu, jonka tein tänä syksynä omaan käyttöön nopeuttamaan työskentelyäni opinnäytetyöni parissa, koska lähteitä oli paljon opinnäytetyössäni. Työkalu automaattisesti muotoilee lähteen oikeaan muotoon, kunhan siihen syöttää tarvittavat tiedon, valmiin lähteen saa kopioitua ja suoraan liitettyä opinnäytetyöhön. Sovelluksen tein Unity-pelimoottorissa & C# kielellä.
